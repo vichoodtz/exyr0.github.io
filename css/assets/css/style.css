@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+strong {
+    color: blueviolet;
+}
+#picture {
+    background-image: url("/assets/imgs/foto2.jpg");
+    background-size: cover;
+    padding: 300px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(236, 227, 227);
+
+}
+#picture p {
+    padding-top: 24px;
+    opacity: 45%;
+    color: white;
+}
+#footer {
+    background-color: blueviolet;
+    padding: 3px;
+    text-align: center;
+}
+a {
+    color: white;
+}
+#products {
+    width: 100%;
+    margin:auto;
+}
+#products td {
+    width: 50%;
+    padding: 5em;
+    color: white;
+}
+#products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
