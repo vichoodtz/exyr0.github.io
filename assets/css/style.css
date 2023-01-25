@@ -4,7 +4,6 @@
 #imagen-principal {
     background-image: url(/assets/imgs/header-ajustado.jpg);
     background-size: cover;
-    height: 450px;
     font-family: "roboto";
 }
 #seccion-proyecto {

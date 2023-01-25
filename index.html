@@ -7,9 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Unbounded&display=swap" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="assets/imgs/logo_size.jpg">
@@ -17,31 +14,43 @@
 </head>
 
 <body>
-  <nav class="navbar bg-dark">
-    <div class="container-fluid">
+  <nav class="navbar bg-dark fixed-top navbar-expand-lg p-3">
+    <div class="container">
       <a class="navbar-brand text-white" href="#">
         <img src="assets/imgs/logo.jpg" alt="Logo" width="34" height="28" class="d-inline-block align-text-top">
         Matias Galdames
       </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#mis-trabajos">Mis Proyectos</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-  <header id="imagen-principal" class="text-light pt-5">
+  <header id="imagen-principal" class="text-light py-5 mt-5">
     <div class="container">
-      <div class="col">
-        <h1 class="display-2 opacity-75">
-          Portafolio <br> - Desarrollo <br> -- Full stack
-        </h1>
+      <div class="col ps-5 pt-4">
+        <h1 class="display-2 opacity-75">Portafolio</h1>
+        <h1 class="display-2 opacity-75 ps-3 ms-3">Desarrollo</h1>
+        <h1 class="display-2 opacity-75 ps-5 ms-4">Full stack</h1>
       </div>
     </div>
 
   </header>
-  <section class="container-fluid bg-body">
+  <section class="container bg-body">
     <div class="row pt-5 pb-4">
       <div class="col">
         <div class="card text-center">
           <img src="assets/imgs/desafio-5.jpg" class="card-img-top" alt="desafio-5">
           <div class="card-body">
-            <a href="#" class="btn btn-primary my-2">Desafio 5</a>
+            <h3 class="card-title fw-bold">Git hub</h3>
+            <a href="#" class="btn btn-info my-2">Desafio 5</a>
           </div>
         </div>
       </div>
@@ -54,48 +63,63 @@
       </div>
     </div>
   </section>
+  <section id="mis-trabajos" class="text-center bg-dark text-white py-3 my-2">
+    <h3 class="pt-2">Mis proyectos</h3>
+    <p>A continuacion presento todos mis proyectos creados hasta la fecha y una breve descripcion de que se trataron y
+      como los lleve a cabo.</p>
+  </section>
   <main class="container-fluid">
-    <div class="row pb-3">
+    <div class="row my-5 p-2">
       <div class="col">
         <div class="card">
           <img src="assets/imgs/HTML.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">En este primer desafio aprendi a dar la estructura basica de una pagina web con html en vsc.</p>
-            <a href="#" class="btn btn-primary">Desafio 1</a>
+            <h4 class="card-title fw-bold">Html</h4>
+            <p class="card-text">En este primer desafio aprendi a dar la estructura basica de una pagina web con html en
+              vsc.</p>
+            <a href="#" class="btn btn-info">Desafio 1</a>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col pt-2">
         <div class="card">
           <img src="assets/imgs/css-.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Este desafio se baso en aprender que era una hoja de estilo (css) y implementarlo a nuestro html.</p>
-            <a href="#" class="btn btn-primary">Desafio 2</a>
+            <h4 class="card-title fw-bold">Css</h4>
+            <p class="card-text">Este desafio se baso en aprender que era una hoja de estilo (css) y implementarlo a
+              nuestro html.</p>
+            <a href="#" class="btn btn-info">Desafio 2</a>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col pt-2">
         <div class="card">
           <img src="assets/imgs/posicionamiento-1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">En este desafio aprendi a posicionar imagenes y texto atraves de float y inline block.</p>
-            <a href="#" class="btn btn-primary">Desafio 3</a>
+            <h4 class="card-title fw-bold">Pocisionamiento</h4>
+            <p class="card-text">En este desafio aprendi a posicionar imagenes y texto atraves de float y inline block.
+            </p>
+            <a href="#" class="btn btn-info">Desafio 3</a>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col pt-2">
         <div class="card">
           <img src="assets/imgs/bootstrap-social-share.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Este desafio consistio en aprender a integrar bootstrap en el desarrollo de nuestras paginas.</p>
-            <a href="#" class="btn btn-primary">Desafio 4</a>
+            <h4 class="card-title fw-bold">bootstrap</h4>
+            <p class="card-text">Este desafio consistio en aprender a integrar bootstrap en el desarrollo de nuestras
+              paginas.</p>
+            <a href="#" class="btn btn-info">Desafio 4</a>
           </div>
         </div>
       </div>
     </div>
   </main>
   <footer class="bg-dark text-center p-2">
-    <a class="text-white" href="https://github.com/exyr0" target="_blank">@GITHUB</a>
+    <a class="text-white text" href="https://github.com/exyr0" target="_blank">@GITHUB</a>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
 </html>
