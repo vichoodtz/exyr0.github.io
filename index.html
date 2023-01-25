@@ -10,25 +10,24 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Unbounded&display=swap" rel="stylesheet">
   <link rel="icon" type="image/jpg" href="assets/imgs/logo_size.jpg">
-  <title>Portafolio</title>
+  <title>Portafolio - Exyr0</title>
 </head>
 
 <body>
   <nav class="navbar bg-dark fixed-top navbar-expand-lg p-3">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand text-white" href="#">
         <img src="assets/imgs/logo.jpg" alt="Logo" width="34" height="28" class="d-inline-block align-text-top">
         Matias Galdames
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler bg-info-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link text-info" href="#mis-trabajos">Mis Proyectos</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -43,20 +42,21 @@
     </div>
 
   </header>
-  <section class="container bg-body">
-    <div class="row pt-5 pb-4">
+  <section class="container-fluid bg-body">
+    <div class="row pt-5 pb-4 m-5">
       <div class="col">
-        <div class="card text-center">
+        <div class="card text-center border-dark">
           <img src="assets/imgs/desafio-5.jpg" class="card-img-top" alt="desafio-5">
           <div class="card-body">
             <h3 class="card-title fw-bold">Git hub</h3>
-            <a href="#" class="btn btn-info my-2">Desafio 5</a>
+            <a href="" target="_blank" class="btn btn-danger my-2">Desafio 5</a>
           </div>
         </div>
       </div>
       <div class="col pt-5 text-center" id="seccion-proyecto">
         <h1 class="pt-5 mt-5">Ultimo proyecto</h1>
-        <p class="pt-3">Esta seccion muestra mi mas reciente proyecto en el cual me encontraba trabajando, en este caso
+        <p class="pt-3">Esta seccion muestra mi mas reciente proyecto en el cual me encontraba trabajando. <br> en este
+          caso
           realize un
           proyecto que consistia en hacer fork a un repositorio ya creado en la plataforma de git hub, y atraves de git
           por la terminal de mi pc descargarlo utilizando git clon para realizarle 5 commit y entregarlo.</p>
@@ -70,47 +70,47 @@
   </section>
   <main class="container-fluid">
     <div class="row my-5 p-2">
-      <div class="col">
-        <div class="card">
+      <div class="col pt-2">
+        <div class="card border-info">
           <img src="assets/imgs/HTML.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4 class="card-title fw-bold">Html</h4>
             <p class="card-text">En este primer desafio aprendi a dar la estructura basica de una pagina web con html en
               vsc.</p>
-            <a href="#" class="btn btn-info">Desafio 1</a>
+            <a href="html/" target="_blank" class="btn btn-info">Desafio 1</a>
           </div>
         </div>
       </div>
       <div class="col pt-2">
-        <div class="card">
+        <div class="card border-info ">
           <img src="assets/imgs/css-.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4 class="card-title fw-bold">Css</h4>
             <p class="card-text">Este desafio se baso en aprender que era una hoja de estilo (css) y implementarlo a
               nuestro html.</p>
-            <a href="#" class="btn btn-info">Desafio 2</a>
+            <a href="css/" target="_blank" class="btn btn-info">Desafio 2</a>
           </div>
         </div>
       </div>
       <div class="col pt-2">
-        <div class="card">
+        <div class="card border-info">
           <img src="assets/imgs/posicionamiento-1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4 class="card-title fw-bold">Pocisionamiento</h4>
             <p class="card-text">En este desafio aprendi a posicionar imagenes y texto atraves de float y inline block.
             </p>
-            <a href="#" class="btn btn-info">Desafio 3</a>
+            <a href="desafio 3/" target="_blank" class="btn btn-info">Desafio 3</a>
           </div>
         </div>
       </div>
       <div class="col pt-2">
-        <div class="card">
+        <div class="card border-info">
           <img src="assets/imgs/bootstrap-social-share.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h4 class="card-title fw-bold">bootstrap</h4>
             <p class="card-text">Este desafio consistio en aprender a integrar bootstrap en el desarrollo de nuestras
               paginas.</p>
-            <a href="#" class="btn btn-info">Desafio 4</a>
+            <a href="bootstrap/" target="_blank" class="btn btn-info">Desafio 4</a>
           </div>
         </div>
       </div>
@@ -120,6 +120,7 @@
     <a class="text-white text" href="https://github.com/exyr0" target="_blank">@GITHUB</a>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-  crossorigin="anonymous"></script>
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
 </html>

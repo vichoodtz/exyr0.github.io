@@ -6,7 +6,7 @@ strong {
     color: blueviolet;
 }
 #picture {
-    background-image: url("/assets/imgs/foto2.jpg");
+    background-image: url("/css/assets/imgs/foto2.jpg");
     background-size: cover;
     padding: 300px;
     text-align: center;
